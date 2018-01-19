@@ -13,12 +13,10 @@ int main(void)
 	{
 		if (ch == 'e')
 		{
-			ch = ch + 1;
 			continue;
 		}
 		if (ch == 'q')
 		{
-			ch = ch + 1;
 			continue;
 		}
 
