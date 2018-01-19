@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0 ; i <= 99 ; i++)
 	{
-		if(c == 10)
+		if (c == 10)
 		{
 			t++;
 			c = 0;
