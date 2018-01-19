@@ -22,9 +22,11 @@ int main(void)
 		putchar(t + '0');
 		putchar(c + '0');
 		if (i != 99)
-		putchar(',');
-		putchar(' ');
-		c++;
+		{
+			putchar(',');
+			putchar(' ');
+			c++;
+		}
 	}
 	{ putchar('\n');
 	}
