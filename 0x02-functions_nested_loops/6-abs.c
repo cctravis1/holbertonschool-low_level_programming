@@ -8,9 +8,9 @@
 
 int _abs(int x)
 {
-	int y;
-
-	y = (x >> 31);
-
-	return ((x ^ y) - y);
+	if (x > 0)
+		return (x);
+	else (x < 0)
+		     return (x * -1);
+	return (0);
 }
