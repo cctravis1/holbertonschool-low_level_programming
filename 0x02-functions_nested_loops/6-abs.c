@@ -6,7 +6,7 @@
  * Return: Always 0.
  */
 
-int _abs(x)
+int _abs(int x)
 {
 	int y;
 
