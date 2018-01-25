@@ -16,7 +16,7 @@ void times_table(void)
 			s = r * x;
 			if (x == 0)
 			{
-                                _putchar('0');
+				_putchar('0');
 			}
 			else if (s <= 9)
 			{
