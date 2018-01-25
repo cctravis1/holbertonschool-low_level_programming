@@ -3,6 +3,7 @@
 /**
  * _isupper - check the code for Holberton School students.
  * @c: - int of _isupper
+ * Return: _isupper
  */
 
 int _isupper(int c)
