@@ -29,9 +29,8 @@ int main(void)
 			printf("%d ", n);
 		}
 
-
-
-
+		if (n == 100)
+			printf("Buzz");
 	}
 	printf("\n");
 	return (0);
