@@ -21,7 +21,7 @@ int _strlen(char *s)
 /**
  * rev_string - check
  * @s: first char
- *
+ * Return: void 
  */
 void rev_string(char *s)
 {
