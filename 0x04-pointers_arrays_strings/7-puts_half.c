@@ -21,8 +21,7 @@ int _strlen(char *s)
 /**
  * puts_half - check
  * @str: first char
- * @x: -
- * @y: -
+ *
  * Return: void
  */
 void puts_half(char *str)
