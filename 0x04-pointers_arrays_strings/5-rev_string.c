@@ -25,7 +25,7 @@ int _strlen(char *s)
  */
 void rev_string(char *s)
 {
-	char hold[100];
+	char hold[500];
 	int len, x, y;
 
 	len = _strlen(s);
