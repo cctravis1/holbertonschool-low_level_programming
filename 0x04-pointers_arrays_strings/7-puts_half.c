@@ -21,27 +21,30 @@ int _strlen(char *s)
 /**
  * puts_half - check
  * @str: first char
- *
+ * @x: -
+ * @y: -
  * Return: void
  */
 void puts_half(char *str)
 {
 	int len;
 	int x;
+	int y;
 
 	len = _strlen(str);
+	x = 0;
 
 	if (len % 2 != 0)
 	{
-		for (x = ((len + 1) / 2); x < len; x++)
-		{
-		_putchar (str[x]);
-		}
+		x = (len + 1) / 2;
 	}
-
-	for (x = len / 2; x < len; x++)
+	else
 	{
-		_putchar (str[x]);
+		x = len / 2;
+	}
+	for (y = x; y < len; y++)
+	{
+		_putchar (str[y]);
 	}
 _putchar ('\n');
 }
