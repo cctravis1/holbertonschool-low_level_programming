@@ -4,6 +4,7 @@
  * _strlen - check the code for Holberton School students.
  *
  * @s: - first char
+ * Return: value of len
  */
 int _strlen(char *s)
 {
